@@ -12,7 +12,7 @@
         <option value="ja">Japonés</option>
     </select>
     <input type='submit' value='¡Traducir!'/><br>
-    <textarea v-model="textToTranslate" rows=10 placeholder ='Texto para traducir...'></textarea><br>
+    <textarea v-model="textToTranslate" rows=10 placeholder ='Texto para traducir (en cualquier idioma)'></textarea><br>
   
 <!--     <br><i>(Powered by <a href="http://translate.yandex.com">Yandex.Translate</a>)</i><br><br>
  -->   </form>
