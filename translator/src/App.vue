@@ -13,7 +13,7 @@ export default {
   name: 'App',
   data: function(){
     return {
-      translatedText:''
+      translatedText:'Aquí aparecerá la traducción...'
     }
   },
   components: {

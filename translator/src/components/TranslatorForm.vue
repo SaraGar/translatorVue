@@ -1,8 +1,8 @@
 <template>
   <div id="translatorForm">
    <form v-on:submit="submitForm">
-    <textarea v-model="textToTranslate" rows=10 placeholder ='Text to translate...'></textarea><br>
-    <select v-model="language">
+    <br><i>(Powered by <a href="http://translate.yandex.com">Yandex.Translate</a>)</i><br><br>
+      <select v-model="language">
         <option value="en">Inglés</option>
         <option value="pt">Portugués</option>
         <option value="it">Italiano</option>
@@ -11,9 +11,11 @@
         <option value="ru">Ruso</option>
         <option value="ja">Japonés</option>
     </select>
-    <input type='submit' value='Traducir!'/><br>
-    <br><i>(Powered by <a href="http://translate.yandex.com">Yandex.Translate</a>)</i><br><br>
-   </form>
+    <input type='submit' value='¡Traducir!'/><br>
+    <textarea v-model="textToTranslate" rows=10 placeholder ='Texto para traducir...'></textarea><br>
+  
+<!--     <br><i>(Powered by <a href="http://translate.yandex.com">Yandex.Translate</a>)</i><br><br>
+ -->   </form>
   </div>
 </template>
 
